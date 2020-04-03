@@ -14,15 +14,7 @@ void setup() {
   Serial.begin(9600);
   bt.begin(9600);
 
-  digitalWrite(11, HIGH);
-  delay(20);
   digitalWrite(11, LOW);
-  delay(20);
-  digitalWrite(11, HIGH);
-  delay(20);
-  digitalWrite(11, LOW);
-  delay(20);
-  //digitalWrite(11, HIGH);
   bt.println("AT+MODE=0"); // enter into command mode
 
 
